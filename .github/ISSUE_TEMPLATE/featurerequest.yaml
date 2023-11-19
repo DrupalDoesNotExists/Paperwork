@@ -1,0 +1,44 @@
+name: Feature Request
+description: Request a feature or an enhancement
+title: "FEAT: "
+labels:
+  - "enhancement"
+  - "triage"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for spending time filling this form. We appreciate Your help!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: Specify the way We can contact You if more info is needed!
+      placeholder: "ex. <John Doe> email@example.com"
+    validations:
+      required: false
+  - type: textarea
+    id: what-you-want
+    attributes:
+      label: What feature do You want to be added?
+      description: Describe the enhancement You want to be added to the Paperwork.
+      placeholder: Tell us Your ideas here.
+      value: "It'd be cool if Paperwork could do a barrel roll"
+    validations:
+      required: true
+  - type: input
+    id: mc-software
+    attributes:
+      label: Minecraft Software
+      description: Provide us with version string of minecraft server You're running
+      placeholder: Paper 1.20.1 (git-dead255beef)
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/DrupalDoesNotExists/Paperwork/blob/master/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
