@@ -26,6 +26,6 @@ tasks.test {
 spotless {
     kotlin {
         ktlint()
-        licenseHeaderFile("${project.rootDir.resolve("LICENSE")}")
+        licenseHeaderFile("${project.rootDir.resolve("LICENSE_HEADER.txt")}")
     }
 }
