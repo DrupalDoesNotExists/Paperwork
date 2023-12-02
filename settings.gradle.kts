@@ -11,3 +11,4 @@ plugins {
 
 rootProject.name = "Paperwork"
 includeBuild("devtools")
+include("configurate-core")

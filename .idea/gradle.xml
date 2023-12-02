@@ -19,6 +19,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/configurate-core" />
             <option value="$PROJECT_DIR$/devtools" />
           </set>
         </option>
